@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Reset */
+
+html,
+body {
+	height: 100%;
+}
+h1 {
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+#container {
+	width: 550px;
+	margin: 50px auto;
+}
+table {
+	margin: 40px auto 65px;
+}
+th, td {
+	padding: 10px 20px;
+	text-align: center;
+}
+th {
+	background: #9aa0e2;
+	color: #fff;
+}
+th:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+td {
+	background: #d3d1d1;
+	border: 1px dotted #fff;
+}
+button {
+	border: none;
+    padding: 5px 10px;
+    margin: 3px;
+    background: red;
+    color: #fff;
+    font-size: 14px;
+}
+button:hover {
+	border: 2px solid #000;
+	cursor: pointer;
+	background: #ba0505;
+	transition: border .6s ease-in-out;
+  	-moz-transition: border .6s ease-in-out;
+  	-webkit-transition: border .6s ease-in-out;
+  	transition: background .6s ease-in-out;
+  	-moz-transition: background .6s ease-in-out;
+  	-webkit-transition: background .6s ease-in-out;
+}
+#operations {
+	text-align: center;
+}
+
+
+
+
+
+
